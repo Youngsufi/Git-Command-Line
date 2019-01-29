@@ -22,7 +22,7 @@ Already up-to-date.
 
 HEAD is now at 5ea52d4 Add the initial version of README.md 
 
-#Pull from Remote Repo#
+//Pull from Remote Repo#
 
 /home/dq/chatbot$ git pull origin master 
 
