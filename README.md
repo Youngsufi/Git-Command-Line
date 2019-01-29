@@ -31,7 +31,7 @@ Fast-forward
 
 #To review, git reset is a powerful command that is used to undo local changes to the state of a Git repo. Git reset operates on "The Three Trees of Git". These trees are the Commit History ( HEAD ), the Staging Index, and the Working Directory. ... The options --soft, --mixed , and --hard can be passed to git reset .
 
-# About Git HEAD variable - Git maintains a reference variable called HEAD. And we call this variable a pointer, because its purpose is to reference, or point to, a specific commit in the repository. As we make new commits the pointer is going to change or move to point to a new commit. HEAD always points to the tip of the current branch in our repository. Now, this has to do with our repository, not our staging index, or our working directory.
+#About Git HEAD variable - Git maintains a reference variable called HEAD. And we call this variable a pointer, because its purpose is to reference, or point to, a specific commit in the repository. As we make new commits the pointer is going to change or move to point to a new commit. HEAD always points to the tip of the current branch in our repository. Now, this has to do with our repository, not our staging index, or our working directory.
 
 Another way to think of it is the last state of our repository or what was last checked out, and because it's where the repository left off or the last state, you can also say that the HEAD points to the parent of the next commit or it's where commit writing is going to take place.
 
