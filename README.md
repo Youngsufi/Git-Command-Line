@@ -55,5 +55,7 @@ Delete the branch.
 ## When naming branches, it's common to use a prefix that describes the type of branch, then a slash, then the name of the feature or fix we're making. Here are some typical prefixes, along with example branch names:
 
 > Feature - feature/happy-bot
+
 > Fix - fix/remove-error
+
 > Chore - chore/add-analytics
