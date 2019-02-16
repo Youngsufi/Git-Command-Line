@@ -1,0 +1,38 @@
+# Simulate a second collaborator working on the remote:
+cd /home/dq
+
+# Clone /dataquest/user/git/chatbot into /home/dq/chatbot2.
+git clone /dataquest/user/git/chatbot chatbot2
+
+# cd into chatbot2.
+cd chatbot2
+
+# Create a new branch called happy-bot.
+git checkout -b happy-bot
+
+# Edit bot.py to output happy messages.
+printf "\nprint('Happiness level: 120')" >> bot.py
+
+# Add bot.py to staging
+git add bot.py
+
+# Commit your changes with the message Made the bot 20% happier!.
+git commit -m "Made the bot 20% happier!"
+
+# Push the happy-bot branch to the remote.
+git push origin happy-bot
+
+# In your local repo /home/dq/chatbot, check out the branch.
+cd /home/dq
+cd chatbot
+
+# Run git fetch to update the Git history.
+git fetch
+
+# Check out the happy-bot branch.
+git checkout happy-bot
+
+Run bot.py to make sure the file changed.
+python bot.py
+
+
