@@ -43,3 +43,11 @@ I think a good metaphor to think about this is the playback and record head on a
 
 The HEAD pointer in Git is very similar, it points at the place where we're going to start recording next. It's the place where we left off in our repository for the things that we've committed.
 
+The typical Git workflow looks like this:
+
+Create a branch off of master with the name of your feature. Let's say feature/better-algo.
+Make your changes on the branch and create commits.
+Push the branch to the remote repo.
+Ask others to review and evaluate your branch.
+Merge the branch into master once everyone thinks it looks okay.
+Delete the branch.
