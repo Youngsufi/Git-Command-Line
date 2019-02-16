@@ -1,0 +1,13 @@
+
+# Create a new branch called feature/random-messages.
+git checkout -b feature/random-messages
+
+# Edit bot.py to output one of several possible messages, based on a random number generator.
+printf "\nimport random\nmessages=['Hi', 'Hi.', 'How are you?', 'Today is a long day...']\nn=random.randint(1,len(messages)-1)\nprint(messages[n])" >> bot.py
+
+# commit to staging area
+git add bot.py
+
+# Commit and push your branch to the remote.
+git commit -m "Added random messaging to the bot!"
+git push origin feature/random-messages
