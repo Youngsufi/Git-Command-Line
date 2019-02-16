@@ -46,8 +46,8 @@ The HEAD pointer in Git is very similar, it points at the place where we're goin
 # The typical Git workflow looks like this:
 
 ## Create a branch off of master with the name of your feature. Let's say feature/better-algo.
-## Make your changes on the branch and create commits.
-# Push the branch to the remote repo.
-# Ask others to review and evaluate your branch.
-# Merge the branch into master once everyone thinks it looks okay.
-# Delete the branch.
+#Make your changes on the branch and create commits.
+Push the branch to the remote repo.
+Ask others to review and evaluate your branch.
+Merge the branch into master once everyone thinks it looks okay.
+Delete the branch.
